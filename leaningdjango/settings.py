@@ -127,5 +127,3 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('mail_username')
 EMAIL_HOST_PASSWORD = os.environ.get('mail_password')
-print(EMAIL_HOST_USER)
-print(EMAIL_HOST_PASSWORD)
